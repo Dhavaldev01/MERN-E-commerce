@@ -4,7 +4,7 @@ import { FaSearch, FaShoppingBag, FaSignInAlt, FaSignOutAlt, FaUser } from 'reac
 import {Link} from 'react-router-dom';
 
 
-const user = {_id : "grfg", role : "user" }
+const user = {_id : "grfg", role : "" }
 function Header() {
 
     const [isOpen ,setIsOpen] = useState<boolean>(false);
